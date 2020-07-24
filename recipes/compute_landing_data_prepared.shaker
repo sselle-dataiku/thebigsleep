@@ -25,8 +25,24 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateComponentsExtractor",
+      "params": {
+        "outYearColumn": "year",
+        "column": "year",
+        "timezone_id": "UTC"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -34,7 +50,22 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "year": 176,
+    "nametype": 100,
+    "mass": 100,
+    "reclat": 100,
+    "reclong": 100,
+    "geolocation.longitude": 173,
+    "year_parsed": 183,
+    "fall": 100,
+    ":@computed_region_nnqa_25f4": 218,
+    "name": 141,
+    "recclass": 100,
+    ":@computed_region_cbhk_fwbd": 218,
+    "geolocation.latitude": 165,
+    "id": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
