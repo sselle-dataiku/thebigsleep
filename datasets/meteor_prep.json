@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595589187429
+    "lastModifiedOn": 1595589192553
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,7 +88,60 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "id",
+        "type": "bigint"
+      },
+      {
+        "name": "nametype",
+        "type": "string"
+      },
+      {
+        "name": "recclass",
+        "type": "string"
+      },
+      {
+        "name": "mass",
+        "type": "double"
+      },
+      {
+        "name": "fall",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "string"
+      },
+      {
+        "name": "reclat",
+        "type": "double"
+      },
+      {
+        "name": "reclong",
+        "type": "double"
+      },
+      {
+        "name": "geolocation.latitude",
+        "type": "double"
+      },
+      {
+        "name": "geolocation.longitude",
+        "type": "double"
+      },
+      {
+        "name": ":@computed_region_cbhk_fwbd",
+        "type": "bigint"
+      },
+      {
+        "name": ":@computed_region_nnqa_25f4",
+        "type": "bigint"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
